@@ -128,8 +128,7 @@ body {
 }
 
 #projetos .card:hover {
-  width: 291.2px;
-  height: 364px;
+  transform: scale(110%);
 }
 
 #projetos .card img {
@@ -137,11 +136,6 @@ body {
   height: 308px;
 
   transition: 0.5s;
-}
-
-#projetos .card img:hover {
-  width: 282.88px;
-  height: 320.48px;
 }
 
 #projetos header {
@@ -309,7 +303,7 @@ footer ul li img {
 }
 
 footer ul li img:hover {
-  width: 50px;
+  transform: scale(150%);
 }
 
 footer #assinatura {
